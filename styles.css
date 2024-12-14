@@ -49,7 +49,7 @@ a:hover, a:active {background-color: gray;}
     box-sizing: border-box;
     border-style: double;
     border-radius: 20px;
-    padding-top: 20px;
+    padding: 20px;
     grid-column: 2;
     float:right;
     justify-content: space-between;
