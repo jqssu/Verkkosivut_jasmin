@@ -151,12 +151,19 @@ text-align: left;}
     }
 
     @media all and (max-width: 600px)  {
-
-    }
+.sidebar{padding: 3px;
+display: flex;
+font-size: xx-small;} 
+.text-container{width: 35%;
+padding: 5px;
+font-size: small;}}
+    
    
     @media (orientation: landscape) and (min-aspect-ratio:7/4){
         
     }
+
+    @media 
 
 
 
