@@ -37,8 +37,11 @@ a:hover, a:active {background-color: gray;}
     text-align: right;
   }
   .sidebar {display: flex;
+    flex-direction: column;
+    align-content: center;
     width: 20%;
     height: 800px;
+    padding: 20px;
     word-wrap: break-word;
     font-size: large;
     margin-right: 55px;
@@ -57,9 +60,11 @@ a:hover, a:active {background-color: gray;}
     .containerh {justify-self: baseline;
     font-family:'Lucida Sans', 'Lucida Sans Regular';
 padding-bottom: 30px;}
-    div.imagec img {width: 250px;
-padding-right: 10px;
-padding-left: 10px;
+    div.imagec img {display: flex;
+        justify-self: center;
+        max-width: 60%;
+        padding-left: 15px;
+        padding-right: 15px;
 padding-top: 100px;
 padding-bottom: 140px;
 border-style: hidden;
@@ -87,6 +92,7 @@ div.text-container { display: flex;
 margin-left: 55px;
 margin-right: 180px;
 margin-bottom: 40px;
+margin-top: 20px;
 box-sizing: border-box;
 width: 68%;
 border-style: double;
@@ -96,7 +102,8 @@ border-radius: 0px;
 gap: 50px;
 }
 div.img-container img {display: flex;
-    width: 45%;
+    max-width: 45%;
+    flex: 1;
 height: auto;
 margin-bottom: 15px ;
 margin-top: 15px;
@@ -151,7 +158,8 @@ text-align: left;}
     @media all and (max-width: 600px)  {
 .sidebar{padding: 3px;
 display: flex;
-font-size: xx-small;} 
+font-size: xx-small;
+;} 
 .text-container{width: 35%;
 padding: 5px;
 font-size: small;}}

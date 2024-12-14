@@ -151,6 +151,7 @@ align-content: center;}
 
 
 .collage img{
+    display: flex;
     flex: 1;
     padding: 0px;
     width:200px;
