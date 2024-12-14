@@ -37,8 +37,10 @@ a:hover, a:active {background-color: gray;}
     text-align: right;
   }
   .sidebar {display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 20%;
-    height: 800px;
+    height: 117vh;
     word-wrap: break-word;
     font-size: large;
     margin-right: 55px;
@@ -57,11 +59,11 @@ a:hover, a:active {background-color: gray;}
     .containerh {justify-self: baseline;
     font-family:'Lucida Sans', 'Lucida Sans Regular';
 padding-bottom: 30px;}
-    div.imagec img {width: 250px;
+    div.imagec img {max-width: 70%;
 padding-right: 10px;
 padding-left: 10px;
-padding-top: 100px;
-padding-bottom: 140px;
+padding-top: 80px;
+padding-bottom: 120px;
 border-style: hidden;
 border-radius: 10px;}
 div.text-container { display: flex;
