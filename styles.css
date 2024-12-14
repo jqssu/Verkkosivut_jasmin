@@ -119,7 +119,8 @@ text-align: left;}
     margin-top: 15px;
     margin-left: 300px;
     margin-right: 55px;}
-    div.row1 img {width: 30px;}
+    div.row1 img {display:flex;
+        max-width: 30px;}
     .column {flex:1;
     padding: 10px;
     text-align: left;}
@@ -132,7 +133,8 @@ text-align: left;}
     margin-right: 55px;
     text-align: center;}
     
-    .footer {border-style: double;
+    .footer {display: flex;
+        border-style: double;
         justify-self: center;
  margin-left: 55px;
  margin-right: 55px;
@@ -163,7 +165,9 @@ font-size: xx-small;
 ;} 
 .text-container{width: 35%;
 padding: 5px;
-font-size: small;}}
+font-size: small;}
+.footer {padding: 3px;
+display: flex;}}
     
    
     @media (orientation: landscape) and (min-aspect-ratio:7/4){
