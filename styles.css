@@ -167,7 +167,8 @@ font-size: xx-small;
 padding: 5px;
 font-size: small;}
 .footer {padding: 3px;
-display: flex;}}
+display: flex;
+margin: 0%;}}
     
    
     @media (orientation: landscape) and (min-aspect-ratio:7/4){
